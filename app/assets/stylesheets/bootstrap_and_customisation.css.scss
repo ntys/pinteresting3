@@ -1,7 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300) ;
+
 $body-bg: 	#5bc0de ;
 $text-color: red ;
 $navbar-inverse-bg: #ababab ;
 $navbar-inverse-link-color: #cc00ff ;
 $btn-primary-bg: #e67e22 ;
+$navbar-height: 50px ;
+$font-family-base:'Open Sans Condensed', sans-serif;
+$font-size-base: 20px ;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center ;
+}
+
+.navbar-brand {
+	font-weight: bold ;
+}
