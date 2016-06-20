@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.3.1'
 
 gem 'rails', '4.2.5.2'
 gem 'sass-rails', '~> 5.0'
@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
+gem 'devise', '~> 4.1.1'
 
 group :development, :test do
 	gem 'sqlite3'
