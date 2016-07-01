@@ -26,7 +26,6 @@ class PinsController < ApplicationController
   end
 
   def update
-    respond_to do |format|
     if @pin.update(pin_params)
       redirect_to @pin, notice: 'Pin was successfully updated.'
     else
@@ -36,9 +35,7 @@ class PinsController < ApplicationController
 
   def destroy
     @pin.destroy
-    respond_to do |format|
-      redirect_to pins_url, notice: 'Pin was successfully destroyed.'
-    end
+    redirect_to pins_url, notice: 'Pin was successfully destroyed.'
   end
 
   private
