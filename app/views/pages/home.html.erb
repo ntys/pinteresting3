@@ -1,7 +1,7 @@
 <div class="jumbotron center">
 	<h1>WELCOME TO MY APP</h1>
 	<% if user_signed_in? %>
-		# do smth
+		<%= link_to 'Show Pins!', pins_path %>
 		<% else %>	
 		<p>
 			<%= link_to "Log In", new_user_session_path, class: "btn btn-default bth-lg" %>
