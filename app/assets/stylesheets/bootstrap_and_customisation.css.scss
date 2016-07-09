@@ -18,3 +18,9 @@ $font-size-base: 20px ;
 .navbar-brand {
 	font-weight: bold ;
 }
+
+.panel-default > .panel-body {
+  color: #333;
+  background-color: #FAFAD2;
+  border-color: #ddd;
+}
